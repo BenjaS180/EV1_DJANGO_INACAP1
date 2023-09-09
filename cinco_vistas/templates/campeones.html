@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/campeones.css' %}">
+    <title>Campeones de League of Legends</title>
+
+</head>
+<body>
+    <main>
+        <div class="titulo_campeones">
+        <h1>Campeones de League of Legends</h1>
+        </div>
+        <div class="champion-list">
+            <!-- Comienza a mostrar los campeones -->
+            <div class="champion">
+                <img src="{% static 'images/ezreal.jpg' %}" alt="Campeón 1">
+                <h2>Ezreal</h2>
+                <p>Si no conozco las normas, ¿cómo iba a estar incumpliéndolas?</p>
+            </div>
+            <div class="champion">
+                <img src="{% static 'images/kaisa.jpg' %}" alt="Campeón 2">
+                <h2>Kai'Sa</h2>
+                <p>"Mi apariencia puede asustarte, pero no te equivoques, estoy de tu lado para luchar hasta el final".</p>
+            </div>
+            <div class="champion">
+                <img src="{% static 'images/Zeri.jpg' %}" alt="Campeón 3">
+                <h2>Zeri</h2>
+                <p>"Este es mi lugar. Es el de todos".</p>
+            </div>
+            <div class="champion">
+                <img src="{% static 'images/aphelios.jpg' %}" alt="Campeón 4">
+                <h2>Aphelios</h2>
+                <p>"Nuestra fe se evidencia cada vez que la rechazamos".
+
+                    ~ Alune</p>
+            </div>
+            <div class="champion">
+                <img src="{% static 'images/xayah.jpg' %}" alt="Campeón 5">
+                <h2>Xayah</h2>
+                <p>''¿Te han apuñalado alguna vez con una pluma?''.</p>
+            </div>
+            <div class="champion">
+                <img src="{% static 'images/karthus.jpg' %}" alt="Campeón 6">
+                <h2>Karthus</h2>
+                <p>"La muerte no es el final del camino, solo el principio..."</p>
+            </div>
+        </div>
+    </main>
+        {% endblock %}
+</div>
+</body>
+</html>

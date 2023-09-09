@@ -1,0 +1,36 @@
+.champion-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.champion {
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 5px solid rgb(50, 68, 224);
+    text-align: center;
+}
+
+.champion img {
+    max-width: 100%; /* Establece un ancho máximo del 100% del contenedor */
+    height: auto; /* Ajusta automáticamente la altura de acuerdo al ancho */
+    object-fit: cover;
+}
+
+.titulo_campeones {
+    background-color: #3498db;
+    padding: 20px;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.titulo_campeones h1 {
+    color: #fff;
+    margin: 0;
+}

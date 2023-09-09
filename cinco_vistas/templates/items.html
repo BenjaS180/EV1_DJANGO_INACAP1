@@ -1,0 +1,59 @@
+{% extends 'home.html' %}
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/items.css' %}">
+    <title>Personajes</title>
+</head>
+<body>
+    <h1>Personajes</h1>
+    <div class="personaje-container">
+        <div class="container-campeones">
+            <img src="{% static 'images/ezreal.jpg' %}" alt="Personaje 1" class="personaje">
+            <img src="{% static 'images/Ezrealbuild.png' %}" alt="build 1" class="build">
+            <h2>Ezreal</h2>
+            <p>Ezreal es un campeón que brilla en la fase tardía del juego, y su estilo de juego se adapta de manera significativa según el soporte que le acompañe. Su fortaleza se debe principalmente a su conjunto de habilidades, que le permite generar un alto Daño por Segundo (DPS) desde una posición segura y tener una gran capacidad de posicionamiento estratégico. Uno de los aspectos clave de su kit es su habilidad pasiva, que le otorga velocidad de ataque y velocidad de movimiento cada vez que acierta una habilidad.</p>
+        </div>
+        <div class="container-campeones">
+            <img src="{% static 'images/kaisa.jpg' %}" alt="Personaje 2" class="personaje">
+            <img src="{% static 'images/Kaisabuild.png' %}" alt="build 2" class="build">
+            <h2>Kaisa</h2>
+            <p>La versatilidad de Kai'Sa la convierte en una elección popular tanto en el carril inferior como en el carril medio, y su capacidad para evolucionar sus habilidades en función de su construcción de objetos le da un elemento estratégico único. Ya sea defendiendo Valoran o cazando a sus enemigos en el Vacío, Kai'Sa encarna la esencia de la adaptación y la determinación en el League of Legends. Kai'Sa, antes conocida como Kaisa Kassadin, se vio atrapada en el Vacío cuando era apenas una niña. A través de una impresionante voluntad de sobrevivir, logró fusionarse con un traje simbiótico extraterrestre conocido como el "Traje Viviente",</p>
+        </div>
+        <div class="container-campeones">
+            <img src="{% static 'images/Aphelios.jpg' %}" alt="Personaje 2" class="personaje">
+            <img src="{% static 'images/Apheliosbuild.png' %}" alt="build 2" class="build">
+            <h2>Aphelios</h2>
+            <p>aAphelios es un campeón extremadamente único en League of Legends debido a su complejo conjunto de habilidades que involucra el uso de cinco armas distintas, cada una con su propio conjunto de habilidades y efectos. En resumen, Aphelios es un campeón con una curva de aprendizaje alta pero muy recompensante para los jugadores que invierten tiempo en comprender su kit único y sus mecánicas. Su capacidad para adaptarse a diferentes situaciones y su versatilidad lo convierten en una elección emocionante para aquellos que buscan desafíos en League of Legends.</p>
+        </div>
+        <div class="container-campeones">
+            <img src="{% static 'images/Zeri.jpg' %}" alt="Personaje 2" class="personaje">
+            <img src="{% static 'images/Zeribuild.png' %}" alt="build 2" class="build">
+            <h2>Zeri</h2>
+            <p>Zeri es un campeón extremadamente versátil, y su kit de habilidades le otorga una ventaja destacable en el campo de batalla. Su característica más distintiva es que su ataque básico es en realidad una habilidad, lo que le permite maximizar su daño mientras esquiva a sus enemigos con maestría. Zeri es un campeón extremadamente versátil, y su kit de habilidades le otorga una ventaja destacable en el campo de batalla. Su característica más distintiva es que su ataque básico es en realidad una habilidad, lo que le permite maximizar su daño mientras esquiva a sus enemigos con maestría.</p>
+        </div>
+        <div class="container-campeones">
+            <img src="{% static 'images/xayah.jpg' %}" alt="Personaje 2" class="personaje">
+            <img src="{% static 'images/Xayahbuild.png' %}" alt="build 2" class="build">
+            <h2>Xayah</h2>
+            <p>Xayah es una letal tiradora (ADC) en League of Legends con un kit de habilidades centrado en el daño a larga distancia y la capacidad de controlar las peleas en equipo. Su mecánica de juego gira en torno a su capacidad para lanzar rápidamente sus plumas mortales en forma de abanico, infligiendo daño a múltiples enemigos al mismo tiempo En resumen, Xayah es una tiradora con una mecánica de juego única basada en plumas, que le permite infligir daño en área y controlar a sus enemigos. Xayah suele construir objetos de daño crítico y velocidad de ataque para maximizar su potencial de daño. </p>
+        </div>
+        <div class="container-campeones">
+            <img src="{% static 'images/karthus.jpg' %}" alt="Personaje 2" class="personaje">
+            <img src="{% static 'images/Karthusbuild.png' %}" alt="build 2" class="build">
+            <h2>Karthus</h2>
+            <p>Sinergias de equipo: Funciona bien en composiciones con campeones que pueden protegerlo o ralentizar a los enemigos, como Lulu o Sejuani.
+
+                Contador de campeones: Karthus es vulnerable a campeones con movilidad y capacidad para eliminarlo rápidamente.
+                
+                En resumen, Karthus es un campeón mago a distancia que destaca por su capacidad para infligir daño de área constante y por su habilidad definitiva que puede cambiar el rumbo de las peleas en equipo. Su falta de movilidad lo hace vulnerable, pero su potencial de daño lo convierte en una amenaza significativa en manos adecuadas.</p>
+        </div>
+        
+    </div>
+</body>
+</html>
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body>
+    <div class="home-container">
+        <div class="titulo-intro">
+            <h1 class="titulo-grande">Explora los Poderosos Campeones de League of Legends</h1>
+            <p class="subtitulo">Descubre a los héroes, villanos y leyendas que dominan el Campo de la Justicia</p>
+        </div>
+    </div>
+    <div class="imagen-container">
+        <img src="{% static 'images/LOL.jpg' %}" alt="LOL">
+    </div>
+</body>
+</html>
+{% endblock %}

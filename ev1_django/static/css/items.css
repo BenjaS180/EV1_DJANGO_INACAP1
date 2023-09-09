@@ -1,0 +1,26 @@
+.personaje-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+}
+
+.personaje {
+    max-width: 100%;
+    height: auto;
+}
+.container-campeones{
+    width: calc(60% - 20px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    padding: 10px;
+    border: 5px solid rgb(50, 68, 224);
+    text-align: center;
+}
+.build {
+    margin-top: 10px;
+    display: flex;
+    max-width: 100%; /* Evita que la imagen se haga más grande que su tamaño original */
+    max-height: 100%; /* Evita que la imagen se haga más alta que su tamaño original */
+}
