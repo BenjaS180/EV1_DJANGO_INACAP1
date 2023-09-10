@@ -24,3 +24,12 @@
     max-width: 100%; /* Evita que la imagen se haga más grande que su tamaño original */
     max-height: 100%; /* Evita que la imagen se haga más alta que su tamaño original */
 }
+.h1_campeones{
+    background-color: #3498db;
+    padding: 20px;
+    border: 2px solid #2980b9;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

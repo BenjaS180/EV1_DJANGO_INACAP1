@@ -1,0 +1,28 @@
+{% extends 'home.html' %}
+{% load embed_video_tags %}
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-10 mx-auto mt-5 text-center">
+                <h1>Videos</h1>
+                {% for item in videos %}
+
+                    {% video item.url '425x240' %}
+                    {{ item.title }}
+
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+{% endblock %}
